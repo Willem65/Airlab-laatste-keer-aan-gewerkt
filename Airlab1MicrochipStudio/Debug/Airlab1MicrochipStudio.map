@@ -1,0 +1,1050 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+                              Events.o (__divmodhi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+                              Events.o (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+                              airlabbrm-willem.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+                              airlabbrm-willem.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+EventBufferPtrBottom
+                    0x1               airlabbrm-willem.o
+EEread              0x1d              airlabbrm-willem.o
+cntCueFunction      0x10              airlabbrm-willem.o
+OperatingMode       0x1               airlabbrm-willem.o
+SerialBufferInPtrBottom
+                    0x1               airlabbrm-willem.o
+I2CBufferOutPtrBottom
+                    0x1               airlabbrm-willem.o
+SerialBufferIn      0x100             airlabbrm-willem.o
+TextString          0x44              airlabbrm-willem.o
+SendSerialReady     0x1               airlabbrm-willem.o
+I2CError            0x1               airlabbrm-willem.o
+I2CBufferOutPtrTop  0x1               airlabbrm-willem.o
+I2CStatus           0x1               I2C.o
+I2CBufferIn         0x100             I2C.o
+CardInserted        0x1               airlabbrm-willem.o
+SerialLength        0x1               airlabbrm-willem.o
+SendSerialData      0x1               airlabbrm-willem.o
+I2CRepeat           0x1               I2C.o
+ModuleType          0x10              airlabbrm-willem.o
+USART_ReceiveBuffer
+                    0x80              RS232.o
+I2CBufferInPtrTop   0x1               airlabbrm-willem.o
+I2CFromAddress      0x1               I2C.o
+TextStringPtr       0x1               airlabbrm-willem.o
+I2CLength           0x1               I2C.o
+SerialBufferOutPtrTop
+                    0x1               airlabbrm-willem.o
+EEread2             0x1d              airlabbrm-willem.o
+ConsoleFunctionData
+                    0x11              airlabbrm-willem.o
+SerialByte          0x1               airlabbrm-willem.o
+cntStartFunction    0x10              airlabbrm-willem.o
+NrOfTriples         0x1               airlabbrm-willem.o
+NrOfTelcos          0x1               airlabbrm-willem.o
+DummySerialBuffer   0x100             airlabbrm-willem.o
+SerialCnt           0x1               airlabbrm-willem.o
+I2CByteNr           0x1               I2C.o
+SerialBufferOut     0x100             airlabbrm-willem.o
+TimeAndDate         0x4               ConsoleTimer.o
+Count               0x1               ConsoleTimer.o
+MasterTextString    0x44              airlabbrm-willem.o
+Wait                0x1               airlabbrm-willem.o
+EventBuffer         0x200             airlabbrm-willem.o
+TempEnableSetup     0x1               airlabbrm-willem.o
+I2C_SlaveBuffer     0x400             airlabbrm-willem.o
+ModuleData          0x80              airlabbrm-willem.o
+EventBufferPtrTop   0x1               airlabbrm-willem.o
+Bits                0x1               ReadModules.o
+I2CMasterReciever   0x1               airlabbrm-willem.o
+GlobalTimerActive   0x1               ConsoleTimer.o
+I2CSendReady        0x1               airlabbrm-willem.o
+ConsoleMasterSettings
+                    0x5               airlabbrm-willem.o
+SerialBufferOutPtrBottom
+                    0x1               airlabbrm-willem.o
+StartActive         0x10              airlabbrm-willem.o
+ModuleTextString    0x1ed             airlabbrm-willem.o
+cntMuteFunction     0x10              airlabbrm-willem.o
+I2CBuffer           0x100             I2C.o
+SystemTextString    0x66              airlabbrm-willem.o
+I2CRepeatAddress    0x1               I2C.o
+CurrentAddress      0x1               I2C.o
+I2C_WriteBuffer     0x400             airlabbrm-willem.o
+CUEByRemoteMIC      0x10              airlabbrm-willem.o
+I2CDataLength       0x1               I2C.o
+DirectorTBCUEBussActive
+                    0x1               airlabbrm-willem.o
+I2CItem             0x1               I2C.o
+I2CBufferInPtrBottom
+                    0x1               airlabbrm-willem.o
+I2CAddressBufferOut
+                    0x100             I2C.o
+wr                  0x1d              airlabbrm-willem.o
+I2CModule           0x1               I2C.o
+I2CDataBufferOut    0x100             I2C.o
+TimerActive         0x10              airlabbrm-willem.o
+I2C_ReadBuffer      0x400             airlabbrm-willem.o
+OldTimeAndDate      0x4               ConsoleTimer.o
+UndoConsoleMasterSettings
+                    0x5               airlabbrm-willem.o
+UndoConsoleModuleSettings
+                    0x1d0             airlabbrm-willem.o
+ConsoleModuleSettings
+                    0x1d0             airlabbrm-willem.o
+cntStartPuls        0x10              airlabbrm-willem.o
+wacht               0x2               RS232.o
+MasterData          0x8               airlabbrm-willem.o
+cntModule           0x1               airlabbrm-willem.o
+ShowFunctionData    0x11              airlabbrm-willem.o
+SerialBufferInPtrTop
+                    0x1               airlabbrm-willem.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ .text          0x00000000        0x0 airlabbrm-willem.o
+ .data          0x00000000        0x0 airlabbrm-willem.o
+ .bss           0x00000000        0x0 airlabbrm-willem.o
+ .text          0x00000000        0x0 ConsoleTimer.o
+ .data          0x00000000        0x0 ConsoleTimer.o
+ .bss           0x00000000        0x0 ConsoleTimer.o
+ .text          0x00000000        0x0 Delay.o
+ .data          0x00000000        0x0 Delay.o
+ .bss           0x00000000        0x0 Delay.o
+ .text          0x00000000        0x0 Events.o
+ .data          0x00000000        0x0 Events.o
+ .bss           0x00000000        0x0 Events.o
+ .text          0x00000000        0x0 I2C.o
+ .data          0x00000000        0x0 I2C.o
+ .bss           0x00000000        0x0 I2C.o
+ .text.SetupSIO1
+                0x00000000        0x2 I2C.o
+ .text.WriteData
+                0x00000000        0x2 I2C.o
+ .text.Int_I2C  0x00000000        0x2 I2C.o
+ COMMON         0x00000000      0x40a I2C.o
+ .text          0x00000000        0x0 lcd.o
+ .data          0x00000000        0x0 lcd.o
+ .bss           0x00000000        0x0 lcd.o
+ .text          0x00000000        0x0 ReadModules.o
+ .data          0x00000000        0x0 ReadModules.o
+ .bss           0x00000000        0x0 ReadModules.o
+ .text          0x00000000        0x0 RS232.o
+ .data          0x00000000        0x0 RS232.o
+ .bss           0x00000000        0x0 RS232.o
+ .bss.WritingPositionOnTheBuffer
+                0x00000000        0x1 RS232.o
+ .text          0x00000000        0x0 TWIM.o
+ .data          0x00000000        0x0 TWIM.o
+ .bss           0x00000000        0x0 TWIM.o
+ .text.TWIM_Init
+                0x00000000       0x20 TWIM.o
+ .text.TWIM_SendAddress
+                0x00000000       0x16 TWIM.o
+ .text.TWIM_SendData
+                0x00000000       0x38 TWIM.o
+ .text.TWIM_ReadData
+                0x00000000       0x1a TWIM.o
+ .text.TWIM_SendStop
+                0x00000000       0x14 TWIM.o
+ .text.TWIM_TransmitBytes
+                0x00000000       0x54 TWIM.o
+ .text.TWIM_ReceiveBytes
+                0x00000000       0x5a TWIM.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00022000         xr
+data             0x00802000         0x00002000         rw !x
+eeprom           0x00810000         0x00000800         rw !x
+fuse             0x00820000         0x00000006         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+LOAD airlabbrm-willem.o
+LOAD ConsoleTimer.o
+LOAD Delay.o
+LOAD Events.o
+LOAD I2C.o
+LOAD lcd.o
+LOAD ReadModules.o
+LOAD RS232.o
+LOAD TWIM.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega7\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega7\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega7\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7\libatxmega128a4u.a
+END GROUP
+                [0x00000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00802000]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x802000
+                [0x00022000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                [0x00002000]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000800]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000006]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x534e
+ *(.vectors)
+ .vectors       0x00000000      0x1fc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.DoEvent
+                0x000001fc      0x172 Events.o
+ .progmem.gcc_sw_table.DoSerial
+                0x0000036e       0xc6 RS232.o
+                0x00000434                . = ALIGN (0x2)
+                0x00000434                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000434       0xa8 linker stubs
+ *(.trampolines*)
+                0x000004dc                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000004dc                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000004dc                __ctors_start = .
+ *(.ctors)
+                0x000004dc                __ctors_end = .
+                0x000004dc                __dtors_start = .
+ *(.dtors)
+                0x000004dc                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000004dc        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+                0x000004dc                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000004dc       0x18 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000004f4       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_copy_data.o)
+                0x000004f4                __do_copy_data
+ .init4         0x00000510       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_clear_bss.o)
+                0x00000510                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000520        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ *(.init9)
+ *(.text)
+ .text          0x00000528        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+                0x00000528                __vector_38
+                0x00000528                __vector_104
+                0x00000528                __vector_22
+                0x00000528                __vector_63
+                0x00000528                __vector_28
+                0x00000528                __vector_67
+                0x00000528                __vector_1
+                0x00000528                __vector_119
+                0x00000528                __vector_32
+                0x00000528                __vector_75
+                0x00000528                __vector_71
+                0x00000528                __vector_91
+                0x00000528                __vector_34
+                0x00000528                __vector_62
+                0x00000528                __vector_77
+                0x00000528                __vector_102
+                0x00000528                __vector_24
+                0x00000528                __vector_12
+                0x00000528                __vector_55
+                0x00000528                __vector_69
+                0x00000528                __vector_81
+                0x00000528                __vector_90
+                0x00000528                __bad_interrupt
+                0x00000528                __vector_122
+                0x00000528                __vector_72
+                0x00000528                __vector_114
+                0x00000528                __vector_6
+                0x00000528                __vector_110
+                0x00000528                __vector_31
+                0x00000528                __vector_92
+                0x00000528                __vector_35
+                0x00000528                __vector_78
+                0x00000528                __vector_74
+                0x00000528                __vector_117
+                0x00000528                __vector_39
+                0x00000528                __vector_107
+                0x00000528                __vector_3
+                0x00000528                __vector_105
+                0x00000528                __vector_98
+                0x00000528                __vector_23
+                0x00000528                __vector_68
+                0x00000528                __vector_30
+                0x00000528                __vector_73
+                0x00000528                __vector_45
+                0x00000528                __vector_25
+                0x00000528                __vector_93
+                0x00000528                __vector_61
+                0x00000528                __vector_11
+                0x00000528                __vector_54
+                0x00000528                __vector_99
+                0x00000528                __vector_13
+                0x00000528                __vector_17
+                0x00000528                __vector_19
+                0x00000528                __vector_56
+                0x00000528                __vector_7
+                0x00000528                __vector_125
+                0x00000528                __vector_49
+                0x00000528                __vector_123
+                0x00000528                __vector_41
+                0x00000528                __vector_86
+                0x00000528                __vector_100
+                0x00000528                __vector_101
+                0x00000528                __vector_64
+                0x00000528                __vector_88
+                0x00000528                __vector_109
+                0x00000528                __vector_43
+                0x00000528                __vector_27
+                0x00000528                __vector_5
+                0x00000528                __vector_113
+                0x00000528                __vector_33
+                0x00000528                __vector_76
+                0x00000528                __vector_115
+                0x00000528                __vector_47
+                0x00000528                __vector_52
+                0x00000528                __vector_37
+                0x00000528                __vector_95
+                0x00000528                __vector_103
+                0x00000528                __vector_96
+                0x00000528                __vector_89
+                0x00000528                __vector_108
+                0x00000528                __vector_4
+                0x00000528                __vector_44
+                0x00000528                __vector_82
+                0x00000528                __vector_106
+                0x00000528                __vector_118
+                0x00000528                __vector_51
+                0x00000528                __vector_9
+                0x00000528                __vector_2
+                0x00000528                __vector_21
+                0x00000528                __vector_15
+                0x00000528                __vector_66
+                0x00000528                __vector_36
+                0x00000528                __vector_79
+                0x00000528                __vector_70
+                0x00000528                __vector_83
+                0x00000528                __vector_29
+                0x00000528                __vector_121
+                0x00000528                __vector_40
+                0x00000528                __vector_85
+                0x00000528                __vector_94
+                0x00000528                __vector_126
+                0x00000528                __vector_8
+                0x00000528                __vector_26
+                0x00000528                __vector_48
+                0x00000528                __vector_124
+                0x00000528                __vector_116
+                0x00000528                __vector_112
+                0x00000528                __vector_111
+                0x00000528                __vector_80
+                0x00000528                __vector_84
+                0x00000528                __vector_57
+                0x00000528                __vector_53
+                0x00000528                __vector_10
+                0x00000528                __vector_50
+                0x00000528                __vector_16
+                0x00000528                __vector_59
+                0x00000528                __vector_18
+                0x00000528                __vector_97
+                0x00000528                __vector_20
+                0x00000528                __vector_42
+                0x00000528                __vector_87
+                0x00000528                __vector_65
+                0x00000528                __vector_120
+                0x0000052c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.TimerControl
+                0x0000052c      0x102 airlabbrm-willem.o
+                0x0000052c                TimerControl
+ .text.ShowFunction
+                0x0000062e       0x46 airlabbrm-willem.o
+                0x0000062e                ShowFunction
+ .text.GetTelcoNrFromModuleNr
+                0x00000674        0xe airlabbrm-willem.o
+                0x00000674                GetTelcoNrFromModuleNr
+ .text.CheckTBMic
+                0x00000682        0xc airlabbrm-willem.o
+                0x00000682                CheckTBMic
+ .text.StudioMicControl
+                0x0000068e      0x158 airlabbrm-willem.o
+                0x0000068e                StudioMicControl
+ .text.DJControl
+                0x000007e6      0x14e airlabbrm-willem.o
+                0x000007e6                DJControl
+ .text.OnAirControl
+                0x00000934      0x2c8 airlabbrm-willem.o
+                0x00000934                OnAirControl
+ .text.StartControl
+                0x00000bfc      0x154 airlabbrm-willem.o
+                0x00000bfc                StartControl
+ .text.CheckStartCondition
+                0x00000d50      0x1d0 airlabbrm-willem.o
+                0x00000d50                CheckStartCondition
+ .text.SetConsoleData
+                0x00000f20      0x1b8 airlabbrm-willem.o
+                0x00000f20                SetConsoleData
+ .text.CheckCUEByRemoteMIC
+                0x000010d8       0x70 airlabbrm-willem.o
+                0x000010d8                CheckCUEByRemoteMIC
+ .text.GetModuleNrFromTelcoNr
+                0x00001148        0xe airlabbrm-willem.o
+                0x00001148                GetModuleNrFromTelcoNr
+ .text.CueControl
+                0x00001156       0xc0 airlabbrm-willem.o
+                0x00001156                CueControl
+ .text.Init     0x00001216      0x5c6 airlabbrm-willem.o
+                0x00001216                Init
+ .text.main     0x000017dc      0x3fa airlabbrm-willem.o
+                0x000017dc                main
+ .text.SetupTimer0
+                0x00001bd6       0x28 ConsoleTimer.o
+                0x00001bd6                SetupTimer0
+ .text.__vector_14
+                0x00001bfe       0x8c ConsoleTimer.o
+                0x00001bfe                __vector_14
+ .text.Delay    0x00001c8a       0x24 Delay.o
+                0x00001c8a                Delay
+ .text.DoEvent  0x00001cae     0x2484 Events.o
+                0x00001cae                DoEvent
+ .text.SetAddress
+                0x00004132        0x2 I2C.o
+                0x00004132                SetAddress
+ .text.ReadData
+                0x00004134        0x2 I2C.o
+                0x00004134                ReadData
+ .text.localDelay
+                0x00004136       0x26 lcd.o
+                0x00004136                localDelay
+ .text.SetupLCD
+                0x0000415c      0x316 lcd.o
+                0x0000415c                SetupLCD
+ .text.SetLCD   0x00004472      0x14e lcd.o
+                0x00004472                SetLCD
+ .text.ReadMasterSwitches
+                0x000045c0       0xd0 ReadModules.o
+                0x000045c0                ReadMasterSwitches
+ .text.ReadModuleSwitches
+                0x00004690      0x296 ReadModules.o
+                0x00004690                ReadModuleSwitches
+ .text.ReadConsole
+                0x00004926       0x26 ReadModules.o
+                0x00004926                ReadConsole
+ .text.ShowConfig
+                0x0000494c      0x18c ReadModules.o
+                0x0000494c                ShowConfig
+ .text.DoSerial
+                0x00004ad8      0x45c RS232.o
+                0x00004ad8                DoSerial
+ .text.SetupSIO0
+                0x00004f34       0x2e RS232.o
+                0x00004f34                SetupSIO0
+ .text.__vector_58
+                0x00004f62       0xc4 RS232.o
+                0x00004f62                __vector_58
+ .text.__vector_60
+                0x00005026       0x64 RS232.o
+                0x00005026                __vector_60
+ .text.TWIM_ErrorHandler
+                0x0000508a       0x14 TWIM.o
+ .text.TWIM_ArbitrationLostHandler
+                0x0000509e        0x6 TWIM.o
+ .text.TWIM_WriteHandler
+                0x000050a4       0xa2 TWIM.o
+ .text.TWIM_ReadHandler
+                0x00005146       0x4a TWIM.o
+ .text.TWIM_InitInterrupt
+                0x00005190       0x20 TWIM.o
+                0x00005190                TWIM_InitInterrupt
+ .text.TWIM_Transmit
+                0x000051b0       0x52 TWIM.o
+                0x000051b0                TWIM_Transmit
+ .text.TWIM_Receive
+                0x00005202       0x52 TWIM.o
+                0x00005202                TWIM_Receive
+ .text.TWIM_Status
+                0x00005254        0x6 TWIM.o
+                0x00005254                TWIM_Status
+ .text.__vector_46
+                0x0000525a       0x8e TWIM.o
+                0x0000525a                __vector_46
+ .text.libgcc.div
+                0x000052e8       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_divmodhi4.o)
+                0x000052e8                _div
+                0x000052e8                __divmodhi4
+ .text.libgcc   0x00005310       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_tablejump2.o)
+                0x00005310                __tablejump2__
+ .text.libgcc.div
+                0x00005322       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_udivmodhi4.o)
+                0x00005322                __udivmodhi4
+                0x0000534a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000534a        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+                0x0000534a                _exit
+                0x0000534a                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000534a        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrxmega7\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000534e                _etext = .
+
+.data           0x00802000       0xe8 load address 0x0000534e
+                0x00802000                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.IDString
+                0x00802000       0x1e RS232.o
+                0x00802000                IDString
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0080201e       0x59 airlabbrm-willem.o
+ .rodata.str1.1
+                0x00802077       0x70 Events.o
+                                 0x87 (size before relaxing)
+ .rodata.str1.1
+                0x008020e7        0x2 ReadModules.o
+ *(.gnu.linkonce.r*)
+                0x008020ea                . = ALIGN (0x2)
+ *fill*         0x008020e7        0x1 
+                0x008020e8                _edata = .
+                0x008020e8                PROVIDE (__data_end, .)
+
+.bss            0x008020e8     0x19bd
+                0x008020e8                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.tm        0x008020e8        0x2 lcd.o
+                0x008020e8                tm
+ .bss.Message   0x008020ea        0xd TWIM.o
+ *(COMMON)
+ COMMON         0x008020f7     0x1921 airlabbrm-willem.o
+                0x008020f7                EventBufferPtrBottom
+                0x008020f8                EEread
+                0x00802115                cntCueFunction
+                0x00802125                OperatingMode
+                0x00802126                SerialBufferInPtrBottom
+                0x00802127                I2CBufferOutPtrBottom
+                0x00802128                SerialBufferIn
+                0x00802228                TextString
+                0x0080226c                SendSerialReady
+                0x0080226d                I2CError
+                0x0080226e                I2CBufferOutPtrTop
+                0x0080226f                CardInserted
+                0x00802270                SerialLength
+                0x00802271                SendSerialData
+                0x00802272                ModuleType
+                0x00802282                I2CBufferInPtrTop
+                0x00802283                TextStringPtr
+                0x00802284                SerialBufferOutPtrTop
+                0x00802285                EEread2
+                0x008022a2                ConsoleFunctionData
+                0x008022b3                SerialByte
+                0x008022b4                cntStartFunction
+                0x008022c4                NrOfTriples
+                0x008022c5                NrOfTelcos
+                0x008022c6                DummySerialBuffer
+                0x008023c6                SerialCnt
+                0x008023c7                SerialBufferOut
+                0x008024c7                MasterTextString
+                0x0080250b                Wait
+                0x0080250c                EventBuffer
+                0x0080270c                TempEnableSetup
+                0x0080270d                I2C_SlaveBuffer
+                0x00802b0d                ModuleData
+                0x00802b8d                EventBufferPtrTop
+                0x00802b8e                I2CMasterReciever
+                0x00802b8f                I2CSendReady
+                0x00802b90                ConsoleMasterSettings
+                0x00802b95                SerialBufferOutPtrBottom
+                0x00802b96                StartActive
+                0x00802ba6                ModuleTextString
+                0x00802d93                cntMuteFunction
+                0x00802da3                SystemTextString
+                0x00802e09                I2C_WriteBuffer
+                0x00803209                CUEByRemoteMIC
+                0x00803219                DirectorTBCUEBussActive
+                0x0080321a                I2CBufferInPtrBottom
+                0x0080321b                wr
+                0x00803238                TimerActive
+                0x00803248                I2C_ReadBuffer
+                0x00803648                UndoConsoleMasterSettings
+                0x0080364d                UndoConsoleModuleSettings
+                0x0080381d                ConsoleModuleSettings
+                0x008039ed                cntStartPuls
+                0x008039fd                MasterData
+                0x00803a05                cntModule
+                0x00803a06                ShowFunctionData
+                0x00803a17                SerialBufferInPtrTop
+ COMMON         0x00803a18        0xa ConsoleTimer.o
+                0x00803a18                TimeAndDate
+                0x00803a1c                Count
+                0x00803a1d                GlobalTimerActive
+                0x00803a1e                OldTimeAndDate
+ COMMON         0x00803a22        0x1 ReadModules.o
+                0x00803a22                Bits
+ COMMON         0x00803a23       0x82 RS232.o
+                0x00803a23                USART_ReceiveBuffer
+                0x00803aa3                wacht
+                0x00803aa5                PROVIDE (__bss_end, .)
+                0x0000534e                __data_load_start = LOADADDR (.data)
+                0x00005436                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00803aa5        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00803aa5                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 airlabbrm-willem.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 ConsoleTimer.o
+ .comment       0x00000030       0x31 Delay.o
+ .comment       0x00000030       0x31 Events.o
+ .comment       0x00000030       0x31 I2C.o
+ .comment       0x00000030       0x31 lcd.o
+ .comment       0x00000030       0x31 ReadModules.o
+ .comment       0x00000030       0x31 RS232.o
+ .comment       0x00000030       0x31 TWIM.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x270
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 airlabbrm-willem.o
+ .debug_aranges
+                0x00000090       0x28 ConsoleTimer.o
+ .debug_aranges
+                0x000000b8       0x20 Delay.o
+ .debug_aranges
+                0x000000d8       0x20 Events.o
+ .debug_aranges
+                0x000000f8       0x40 I2C.o
+ .debug_aranges
+                0x00000138       0x30 lcd.o
+ .debug_aranges
+                0x00000168       0x38 ReadModules.o
+ .debug_aranges
+                0x000001a0       0x38 RS232.o
+ .debug_aranges
+                0x000001d8       0x98 TWIM.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7418
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x284f C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ .debug_info    0x0000284f     0x1591 airlabbrm-willem.o
+ .debug_info    0x00003de0      0x1fd ConsoleTimer.o
+ .debug_info    0x00003fdd       0x78 Delay.o
+ .debug_info    0x00004055     0x1c89 Events.o
+ .debug_info    0x00005cde      0x2e6 I2C.o
+ .debug_info    0x00005fc4      0x3b2 lcd.o
+ .debug_info    0x00006376      0x283 ReadModules.o
+ .debug_info    0x000065f9      0x7a0 RS232.o
+ .debug_info    0x00006d99      0x67f TWIM.o
+
+.debug_abbrev   0x00000000     0x31f6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000     0x262c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ .debug_abbrev  0x0000262c      0x2f8 airlabbrm-willem.o
+ .debug_abbrev  0x00002924       0xb0 ConsoleTimer.o
+ .debug_abbrev  0x000029d4       0x59 Delay.o
+ .debug_abbrev  0x00002a2d      0x13b Events.o
+ .debug_abbrev  0x00002b68       0xa4 I2C.o
+ .debug_abbrev  0x00002c0c       0xe3 lcd.o
+ .debug_abbrev  0x00002cef      0x125 ReadModules.o
+ .debug_abbrev  0x00002e14      0x1fa RS232.o
+ .debug_abbrev  0x0000300e      0x1e8 TWIM.o
+
+.debug_line     0x00000000     0x476d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3b5 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ .debug_line    0x000003b5     0x1419 airlabbrm-willem.o
+ .debug_line    0x000017ce      0x1bd ConsoleTimer.o
+ .debug_line    0x0000198b       0x70 Delay.o
+ .debug_line    0x000019fb     0x1957 Events.o
+ .debug_line    0x00003352       0x7d I2C.o
+ .debug_line    0x000033cf      0x5e3 lcd.o
+ .debug_line    0x000039b2      0x3db ReadModules.o
+ .debug_line    0x00003d8d      0x4ca RS232.o
+ .debug_line    0x00004257      0x516 TWIM.o
+
+.debug_frame    0x00000000      0x5b8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x134 airlabbrm-willem.o
+ .debug_frame   0x00000134       0x50 ConsoleTimer.o
+ .debug_frame   0x00000184       0x24 Delay.o
+ .debug_frame   0x000001a8       0x68 Events.o
+ .debug_frame   0x00000210       0x64 I2C.o
+ .debug_frame   0x00000274       0xb0 lcd.o
+ .debug_frame   0x00000324       0x70 ReadModules.o
+ .debug_frame   0x00000394       0xb0 RS232.o
+ .debug_frame   0x00000444      0x174 TWIM.o
+
+.debug_str      0x00000000     0x2fb3
+ *(.debug_str)
+ .debug_str     0x00000000     0x1aa8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.2.141/gcc/dev/atxmega128a4u/avrxmega7/crtatxmega128a4u.o
+ .debug_str     0x00001aa8      0xadf airlabbrm-willem.o
+                                0xbd2 (size before relaxing)
+ .debug_str     0x00002587      0x222 ConsoleTimer.o
+                                0x420 (size before relaxing)
+ .debug_str     0x000027a9       0x12 Delay.o
+                                0x12d (size before relaxing)
+ .debug_str     0x000027bb       0x5c Events.o
+                                0x534 (size before relaxing)
+ .debug_str     0x00002817       0xfb I2C.o
+                                0x2c7 (size before relaxing)
+ .debug_str     0x00002912       0x2d lcd.o
+                                0x1e4 (size before relaxing)
+ .debug_str     0x0000293f       0x30 ReadModules.o
+                                0x260 (size before relaxing)
+ .debug_str     0x0000296f      0x2f7 RS232.o
+                                0x763 (size before relaxing)
+ .debug_str     0x00002c66      0x34d TWIM.o
+                                0x603 (size before relaxing)
+
+.debug_loc      0x00000000     0x1dd4
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x793 airlabbrm-willem.o
+ .debug_loc     0x00000793       0x56 ConsoleTimer.o
+ .debug_loc     0x000007e9       0x4c Delay.o
+ .debug_loc     0x00000835      0xb51 Events.o
+ .debug_loc     0x00001386      0x2b6 lcd.o
+ .debug_loc     0x0000163c      0x15c ReadModules.o
+ .debug_loc     0x00001798      0x34e RS232.o
+ .debug_loc     0x00001ae6      0x2ee TWIM.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x330
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x80 airlabbrm-willem.o
+ .debug_ranges  0x00000080       0x18 ConsoleTimer.o
+ .debug_ranges  0x00000098       0x10 Delay.o
+ .debug_ranges  0x000000a8      0x118 Events.o
+ .debug_ranges  0x000001c0       0x30 I2C.o
+ .debug_ranges  0x000001f0       0x20 lcd.o
+ .debug_ranges  0x00000210       0x28 ReadModules.o
+ .debug_ranges  0x00000238       0x70 RS232.o
+ .debug_ranges  0x000002a8       0x88 TWIM.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Airlab1MicrochipStudio.elf elf32-avr)
+LOAD linker stubs

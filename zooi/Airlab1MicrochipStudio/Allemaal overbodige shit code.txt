@@ -1,0 +1,328 @@
+	////
+						//////TWIE_MASTER_CTRLC |= TWI_MASTER_ACKACT_bm;
+	//////TWIE_MASTER_CTRLC |= TWI_MASTER_CMD_STOP_gc;
+	////
+		////TWIE_MASTER_CTRLA &= ~(TWI_MASTER_INTLVL_LO_gc | TWI_MASTER_RIEN_bm | TWI_MASTER_WIEN_bm | TWI_MASTER_ENABLE_bm);
+		////TWIE_CTRL = 0x00;
+		////TWIE_MASTER_BAUD = 0x28;
+		////TWIE_MASTER_CTRLA = TWI_MASTER_ENABLE_bm;
+		////TWIE_MASTER_CTRLB = 0x00;
+		////// Set the state machine into idle state
+		////TWIE_MASTER_STATUS |= TWI_MASTER_BUSSTATE_IDLE_gc;
+	////
+	////for (wacht=0; wacht<15000; wacht++);
+	////
+	////
+	
+				////TWIE_MASTER_ADDR = (0x70 << 0x01) | 0x00;             // Address + writebit
+				////while(!(TWIE_MASTER_STATUS & TWI_MASTER_WIF_bm) );
+				////
+				////TWIE_MASTER_DATA = 0xA0;                           // Reg Data write
+				////while(!(TWIE_MASTER_STATUS & TWI_MASTER_WIF_bm));
+				////
+				////
+				////TWIE_MASTER_ADDR = (0x70 << 0x01) | 0x01;             // Address + readbit
+				////while(!(TWIE_MASTER_STATUS & TWI_MASTER_RIF_bm));
+				////
+				////int tm=0;
+				////for ( tm=0; tm<28; tm++)
+				////{				
+					////TWIE_MASTER_CTRLC = TWI_MASTER_CMD_RECVTRANS_gc;				
+					////while(!(TWIE_MASTER_STATUS & TWI_MASTER_RIF_bm));
+					////TWIE_MASTER_CTRLC = TWI_MASTER_ACKACT_bm;
+					////EEread[tm] = TWIE_MASTER_DATA;
+				////}
+				////
+				////TWIE_MASTER_CTRLC |= TWI_MASTER_CMD_STOP_gc;
+	////
+////
+				////while(1)
+				////;
+//--------------------------------------------------------------------------------------------------------------	
+
+	//TWIM_InitInterrupt();
+		//PMIC_CTRL |= PMIC_LOLVLEN_bm;
+		//sei();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		//////////for (t=0; t<29; t++)
+	////////{	
+		////////TWIM_Receive(I2CAddressEEProm, 0x10, EEread, 16);		
+		//////////TWIM_Receive(I2CAddressEEProm, Address, ConsoleModuleSettings[0][0], 29);
+		////////while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+		////////Address += 29;
+	////////}
+	////////
+	//////////for (t=0; t<29; t++)
+	//////////{
+		////////TWIM_Receive(I2CAddressEEProm, 0x20, EEread2, 13);
+		//////////TWIM_Receive(I2CAddressEEProm, Address, ConsoleModuleSettings[0][0], 29);
+		////////while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+		////////Address += 29;
+	//////////}	
+	////////
+	////////
+		////////for (int tm=0; tm<29; tm++)
+		////////{
+			////////if (tm<16)
+			////////{
+				////////(ConsoleModuleSettings[0][tm])=EEread[tm];
+				//////////USARTE0_DATA = EEread[tm];
+				//////////while ( !( USARTE0.STATUS & USART_DREIF_bm) );
+			////////}
+			////////if (tm>15)
+			////////{
+				////////(ConsoleModuleSettings[0][tm])=EEread2[tm-16];
+				//////////USARTE0_DATA = EEread2[tm-16];
+				//////////while ( !( USARTE0.STATUS & USART_DREIF_bm) );								
+			////////}			
+		////////}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			//while(1)
+		//;
+	
+	
+	
+	
+	//for (int t=0; t<16; t++)			
+	//{
+		//ConsoleModuleSettings[0][t]=EEread[t];
+	//}
+	
+	
+	
+	
+	//while(1)
+	//;
+	
+	//TWIM_Receive(I2CAddressEEProm, Address, ConsoleMasterSettings, 5);
+	//while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+
+		//I2C_WriteBuffer[0] = 0x1;
+		//I2C_WriteBuffer[1] = 0x1;
+		//I2C_WriteBuffer[2] = 0x0;
+		//I2C_WriteBuffer[3] = 0x1;
+		//I2C_WriteBuffer[4] = 0x1;		
+		//
+		//
+		//TWIM_Transmit(I2CAddressEEProm, 0x0,  I2C_WriteBuffer, 0x5);
+		//while(!((TWIM_Status() == TWI_MASTER_SEND) || (TWIM_Status() == TWI_MASTER_ERROR)));
+		//
+		//for (wacht=0; wacht<15000; wacht++);
+		//
+		//TWIM_Receive(I2CAddressEEProm, 0x0, ConsoleMasterSettings, 0x5);
+		//while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+		
+	
+	
+	//	Address = 0x0000;
+	//
+			//for (int t=Address; t<5; t++)
+			//{
+				//USARTE0_DATA = ConsoleMasterSettings[t];				
+				//while ( !( USARTE0.STATUS & USART_DREIF_bm) );
+			//}
+			//USARTE0_DATA = 0x20;
+			
+			//Address += NROFMODULES;
+			//
+			//for (int t=0; t<30; t++)
+			//{
+				//for (int tm=0; tm<29; tm++)
+				//{
+					//USARTE0_DATA = ConsoleModuleSettings[t*tm][0];
+					//while ( !( USARTE0.STATUS & USART_DREIF_bm) );
+					//
+				//}
+				//
+			//}
+			//USARTE0_DATA = 0x20;
+			
+			//for (int t=0; t<5; t++)
+			//{
+				//USARTE0_DATA = ConsoleMasterSettings[t];
+				//while ( !( USARTE0.STATUS & USART_DREIF_bm) );
+			//}
+			//USARTE0_DATA = 0x20;
+			//
+			//
+			//while(1)
+			//;
+	
+	
+	//SetupSIO0();
+	//SetupTimer0();
+
+
+
+	
+	
+	
+	//****************** TEST ************************************************************************
+	
+		//for (wacht=0; wacht<50000; wacht++);
+		//PORTA_OUTTGL |= 0x80;  // om als trigger puls te gebruiken voor de oscilloscoop
+
+
+		/*
+			Interrupt driven TWI example
+		*/
+		//TWIM_InitInterrupt();
+		//PMIC_CTRL |= PMIC_LOLVLEN_bm;
+		//sei();		
+
+	
+		/*
+			Initialize the TWI
+				-> Normal TWI
+				-> Master mode
+				-> No Timeout
+				-> Master interrupts (low level)
+				-> 100 kHz @ 2 MHz
+		*/
+		
+		//I2C_WriteBuffer[0] = 0x8;
+		//I2C_WriteBuffer[1] = 0x9;
+		//I2C_WriteBuffer[2] = 0xA;
+	//
+//
+		//TWIM_Transmit(I2CAddressEEProm, TARGET_REGISTER,  I2C_WriteBuffer, BYTES_TO_SEND);
+		//while(!((TWIM_Status() == TWI_MASTER_SEND) || (TWIM_Status() == TWI_MASTER_ERROR)));
+		//
+//
+//
+		//TWIM_Receive(I2CAddressEEProm, TARGET_REGISTER, I2C_ReadBuffer, BYTES_TO_SEND);
+		//while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+		//
+		//I2C_WriteBuffer[0] = 0xB;
+		//I2C_WriteBuffer[1] = 0xC;
+		//I2C_WriteBuffer[2] = 0xD;	
+		//
+		//TWIM_Transmit(I2CAddressEEProm, TARGET_REGISTER+4,  I2C_WriteBuffer, BYTES_TO_SEND);
+		//while(!((TWIM_Status() == TWI_MASTER_SEND) || (TWIM_Status() == TWI_MASTER_ERROR)));
+				//
+//
+		//TWIM_Receive(I2CAddressEEProm, TARGET_REGISTER+4, I2C_ReadBuffer, BYTES_TO_SEND);
+		//while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+
+
+		
+		
+		
+		
+
+	
+	//******************************************************************************************
+	
+	
+	
+				
+		////for (int tm=0; tm<29; tm++)
+		////{
+			////if (tm<16)
+			////{
+				////(ConsoleModuleSettings[0][tm])=EEread[tm];
+				////USARTE0_DATA = EEread[tm];
+				////while ( !( USARTE0.STATUS & USART_DREIF_bm) );
+			////}
+			////if (tm>15)
+			////{
+				////(ConsoleModuleSettings[0][tm])=EEread2[tm-16];
+				////USARTE0_DATA = EEread2[tm-16];
+				////while ( !( USARTE0.STATUS & USART_DREIF_bm) );
+			////}
+		////}
+		
+		
+		
+		//---------------------------------------------------------------------------------------			
+//            First Load all data from EEPROM (or Card?)
+//---------------------------------------------------------------------------------------
+	
+	Address = 0x0000;
+	
+	TWIM_Receive(I2CAddressEEProm, Address, ModuleType, NROFMODULES);
+	while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+	
+	Address += NROFMODULES;
+	
+	int t=0;
+	
+	TWIM_Receive(I2CAddressEEProm, Address, EEread, 29);
+	while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+	
+		for (t=0; t<30; t++)
+		{
+			//TWIM_Receive(I2CAddressEEProm, 0x10, EEread, 28);
+			ConsoleModuleSettings[0][t]=EEread[t];
+			//while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+			//Address += 29;
+		}
+		
+		Address += 29;
+			
+	TWIM_Receive(I2CAddressEEProm, Address, ConsoleMasterSettings, 5);
+	while(!((TWIM_Status() == TWI_MASTER_RECEIVED) || (TWIM_Status() == TWI_MASTER_ERROR)));
+	
+	
+//------------------------------------------------------------------------------------------------------------------------------------------------	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
